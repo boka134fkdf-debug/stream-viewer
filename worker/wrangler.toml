@@ -12,4 +12,3 @@ PROXY_ALLOWED_HOSTS = ""
 # Secrets (never put these in this file):
 #   npx wrangler secret put ACCESS_TOKEN --config worker/wrangler.toml
 #   npx wrangler secret put STREAM_URL_ENCRYPTION_KEY --config worker/wrangler.toml   (same Fernet key as security.py)
-
