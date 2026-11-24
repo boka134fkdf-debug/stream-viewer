@@ -1,0 +1,14 @@
+name = "stream-viewer-api"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Your GitHub Pages origin (no path, no trailing slash), e.g. https://yourname.github.io
+ALLOWED_ORIGIN = "https://YOUR_USER.github.io"
+STREAM_API_BASE_URL = "https://accounting-helper-service.fastapicloud.dev/api/external"
+# Optional: comma-separated hostnames the proxy may fetch (leave empty to allow any).
+PROXY_ALLOWED_HOSTS = ""
+
+# Secrets (never put these in this file):
+#   npx wrangler secret put ACCESS_TOKEN --config worker/wrangler.toml
+#   npx wrangler secret put STREAM_URL_ENCRYPTION_KEY --config worker/wrangler.toml   (same Fernet key as security.py)
