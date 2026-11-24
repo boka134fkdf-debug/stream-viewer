@@ -4,7 +4,7 @@ compatibility_date = "2025-01-01"
 
 [vars]
 # Your GitHub Pages origin (no path, no trailing slash), e.g. https://yourname.github.io
-ALLOWED_ORIGIN = "https://YOUR_USER.github.io"
+ALLOWED_ORIGIN = "https://boka134fkdf-debug.github.io"
 STREAM_API_BASE_URL = "https://accounting-helper-service.fastapicloud.dev/api/external"
 # Optional: comma-separated hostnames the proxy may fetch (leave empty to allow any).
 PROXY_ALLOWED_HOSTS = ""
